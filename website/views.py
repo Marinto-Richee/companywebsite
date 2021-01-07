@@ -2,10 +2,18 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def home(request):
+def spl(request):
     context = {}
-    return render(request, 'website/home.html', context)
+    return render(request, 'website/splhome.html', context)
 
-def products(request):
+def spl1(request):
     context = {}
-    return render(request, 'website/products.html', context)    
+    return render(request, 'website/splproducts.html', context)
+
+def spl2(request):
+    context = {}
+    return render(request, 'website/splpeople.html', context)
+    
+def spl3(request):
+    context = {}
+    return render(request, 'website/splcontactus.html', context)

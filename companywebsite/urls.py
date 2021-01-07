@@ -19,9 +19,11 @@ from website import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home , name='home'),
-    path('home/', views.home , name='home'),
-    path('products/', views.products , name='home'),
+    path('splhome/',views.spl,name='splhome'),
+    path('',views.spl,name='splhome'),
+    path('splproducts/',views.spl1,name='splproduct'),
+    path('splpeople/',views.spl2,name='splpeople'),
+    path('splcontact/',views.spl3,name='splcontactus'),
 ]
 
 
