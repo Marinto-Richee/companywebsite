@@ -6,7 +6,7 @@ To design a static website for a chip manufacturing company.
 ### Step 1: 
 Requirement collection.
 ### Step 2:
-Creating the layout using H and CSS.
+Creating the layout using HTML and CSS.
 ### Step 3:
 Updating the sample content.
 ### Step 4:
