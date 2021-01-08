@@ -20,7 +20,7 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 
-### base.html
+### splbase.html
 ```
 {% load static %}
 <!DOCTYPE html>
@@ -55,7 +55,7 @@ Publish the website in the given URL.
 </html>
 ```
 
-### home.html
+### splhome.html
 ```
 {% extends "website/splbase.html" %}
 {% block content %}
@@ -80,7 +80,7 @@ Publish the website in the given URL.
 </ul>
 {% endblock  %}
 ```
-### products.html
+### splproducts.html
 ```
 {% extends "website/splbase.html" %}
 {% block content %}
@@ -170,7 +170,7 @@ Publish the website in the given URL.
 </div>
 {% endblock  %}
 ```
-### people.html
+### splpeople.html
 ```
 {% extends "website/splbase.html" %}
 {% block content %}
